@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp.ui
+package org.grindtrack.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
@@ -9,9 +9,9 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.jetbrains.kmpapp.data.WorkoutTemplate
+import org.grindtrack.data.WorkoutTemplate
 import kotlinx.datetime.DayOfWeek
-import org.grindtrack.Screens.ReuseableElements.WarningDialog
+import org.grindtrack.screens.reuseableElements.WarningDialog
 
 data class AddWorkoutTemplateScreen(val workoutTemplates: MutableList<WorkoutTemplate>) : Screen {
     @Composable

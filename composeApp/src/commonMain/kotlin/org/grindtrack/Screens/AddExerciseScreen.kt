@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp.screens
+package org.grindtrack.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -22,8 +22,8 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.jetbrains.kmpapp.data.Exercise
-import com.jetbrains.kmpapp.data.WorkoutTemplate
+import org.grindtrack.data.Exercise
+import org.grindtrack.data.WorkoutTemplate
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 data class AddExerciseScreen(val workoutTemplate: WorkoutTemplate) : Screen {

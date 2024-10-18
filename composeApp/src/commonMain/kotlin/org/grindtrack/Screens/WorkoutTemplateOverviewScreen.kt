@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp.screens
+package org.grindtrack.screens
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -14,9 +14,8 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.jetbrains.kmpapp.data.WorkoutTemplate
-import com.jetbrains.kmpapp.screens.reusable.AddNewItemCard
-import com.jetbrains.kmpapp.ui.AddWorkoutTemplateScreen
+import org.grindtrack.data.WorkoutTemplate
+import org.grindtrack.screens.reuseableElements.AddNewItemCard
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 data class WorkoutTemplateOverviewScreen(var workoutTemplate: MutableList<WorkoutTemplate>) : Screen {

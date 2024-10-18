@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp.screens.reusable
+package org.grindtrack.screens.reuseableElements
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable

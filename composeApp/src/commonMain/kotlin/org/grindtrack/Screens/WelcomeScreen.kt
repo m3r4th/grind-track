@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp.screens
+package org.grindtrack.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.jetbrains.kmpapp.data.sampleWorkoutTemplates
+import org.grindtrack.data.sampleWorkoutTemplates
 import io.kamel.image.KamelImage
 import io.kamel.image.asyncPainterResource
 

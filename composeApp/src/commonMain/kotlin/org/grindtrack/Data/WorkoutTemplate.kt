@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp.data
+package org.grindtrack.data
 
 import kotlinx.datetime.DayOfWeek
 

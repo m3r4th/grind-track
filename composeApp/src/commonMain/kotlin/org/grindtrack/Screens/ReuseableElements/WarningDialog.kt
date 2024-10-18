@@ -1,4 +1,4 @@
-package org.grindtrack.Screens.ReuseableElements
+package org.grindtrack.screens.reuseableElements
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
